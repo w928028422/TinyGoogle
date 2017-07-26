@@ -1,6 +1,6 @@
 tinygoogle:
     build: .
-    command: gunicorn --name tinygoogle -b 0.0.0.0:6005 -w 2 wsgi:app
+    command: gunicorn --name tinygoogle -b 0.0.0.0:6005 -w 2 app:app
     ports: 
         - "6005:6005"
     volumes:
