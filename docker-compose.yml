@@ -1,7 +1,7 @@
 tinygoogle:
     build: .
-    command: gunicorn --name tinygoogle -b 0.0.0.0:6005 -w 2 app:app
+    command: gunicorn --name tinygoogle -b 0.0.0.0:6040 -w 2 app:app
     ports: 
-        - "6005:6005"
+        - "6040:6040"
     volumes:
         - .:/TinyGoogle
