@@ -48,7 +48,8 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 输入以下命令：
 
     docker-compose build   --> 创建或重新构建，每次修改docker-compose.yml之后都需要重新构建 
-成功标志 ： 
+
+如果成功，你会看到 ： 
 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-27%2017.02.57.png)
 
     docker-compose up   --> 启动容器  
@@ -63,6 +64,7 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 如果想要一直能够访问，使用 
     
     docker-compose up &  -->  在后台运行 
+
 常用命令查看docker容器运行状态  
 
     docker ps --> 查看正在运行的容器，课查看容器ID
@@ -86,5 +88,7 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 
 就可以看到你刚才部署到服务器上的网页了！尝试使用你部署上去的TinyGoogle搜索一下你感兴趣的内容吧~（如果搜索地很慢甚至根本搜索不到，不是你的问题，这个原来就很容易卡住）
 
-截图，用markdown的格式写下你对每个步骤的理解，过程中遇到的问题，如何解决这些问题，推到你的GitHub仓库上  (了解git基本命令 --> [点我](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html) )
-请将仓库地址和截图发给我们 
+## 最后 
+把你部署的网页截图。
+用markdown的格式写下你对每个步骤的理解，过程中遇到的问题，如何解决这些问题，推到你的GitHub仓库上  (了解git基本命令 --> [点我](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html))
+请将仓库地址和截图发给我们 。
