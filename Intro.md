@@ -46,27 +46,35 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 ### step4
 此时你应该又回到了命令行中
 输入以下命令：
-
+```
     docker-compose build   --> 创建或重新构建，每次修改docker-compose.yml之后都需要重新构建 
+```
 
 如果成功，你会看到 ： 
 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-27%2017.02.57.png)
+继续输入 ： 
 
+```
     docker-compose up   --> 启动容器  
-    
-若之前操作没有错你应该会看到：
+```
+
+如果成功你会看到：
 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-27%2017.04.18.png) 
+
 
 这就代表容器已经启动了 ，此时已经打开浏览器，可以使用 the.server.ip.adderss：port ，即服务器IP地址加端口号访问你的TonyGoogle了
 
 如果错了，再使用vim进入docker-compose.yml,跟原来仓库中的docker-compose.yml对比一下看看有没有格式上的错误。 
 
 如果想要一直能够访问，使用 
-    
+
+```
     docker-compose up &  -->  在后台运行 
+```
 
 常用命令查看docker容器运行状态  
 
+```
     docker ps --> 查看正在运行的容器，课查看容器ID
     
     docker ps -a --> 查看所有容器 
@@ -78,13 +86,16 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
     docker rm <ID> --> 后加容器的ID，删除容器 
     
     docker logs <ID> --> 查看容器日志 
+```
 
 ### step5 
 
 打开 etc/hosts文件,加入 
-    
+
+```   
     the.server.ip.adderss tinygoogle.for.fun    
-    
+```    
+
 -->如图 
 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-27%2016.41.56.png)   
 
@@ -92,7 +103,10 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 然后保存 
 
 ### step6
-此时，打开浏览器，在浏览器中输入 tinygoogle.for.fun:port,
+此时，打开浏览器，在浏览器中输入 
+```
+tinygoogle.for.fun:port,
+```
 其中port是你刚才在docker-compose.yml中修改的端口号。
 
 
