@@ -68,15 +68,25 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 常用命令查看docker容器运行状态  
 
     docker ps --> 查看正在运行的容器，课查看容器ID
-    docker ps -a --> 查看所有容器 
-    dock而 start <ID> --> 后加容器ID，启动已经存在的容器作为一个服务
+    
+    docker ps -a --> 查看所有容器 
+    
+    dock而 start <ID> --> 后加容器ID，启动已经存在的容器作为一个服务
+    
     docker stop <ID> --> 后加容器的ID，关闭容器 
-    docker rm <ID> --> 后加容器的ID，删除容器 
-    docker logs <ID> --> 查看容器日志 
+    
+    docker rm <ID> --> 后加容器的ID，删除容器 
+    
+    docker logs <ID> --> 查看容器日志 
 
 ### step5 
 
-打开 etc/hosts文件,加入 the.server.ip.adderss tinygoogle.for.fun    -->如图 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-27%2016.41.56.png)   
+打开 etc/hosts文件,加入 
+    
+    the.server.ip.adderss tinygoogle.for.fun    
+    
+-->如图 
+![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-27%2016.41.56.png)   
 
 前面那串被点号分隔的数组是本服务器的IP地址  （了解dns域名解析 --> [点我](http://blog.chinaunix.net/uid-28216282-id-3757849.html) 
 然后保存 
