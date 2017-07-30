@@ -96,4 +96,13 @@ def not_found(error):
     return render_template('404.html'), 404
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    host = '0.0.0.0'
+    flag = 0
+    while(flag == 0):
+        port = input(">port(between 3001 and 9999):")
+        if port >= 3001 and port <= 9999:
+            flag = 1
+        else:
+            print("Error:port should between 3001 and 9999!")
+    
+    app.run(host = host,port = port)
