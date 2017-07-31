@@ -77,4 +77,6 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 ```
 ./tinygoogle.sh 
 ``` 
-
+这样就是运行成功了 --> 如图 
+![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2016.07.40.png) 
+是不是很简单呢？？！
