@@ -1,11 +1,11 @@
 # Task:部署一个你自己的Google
 
-平时我们使用Google需要翻墙，如果部署一个属于自己的TinyGoogle就可以不需翻墙也能使用Google，根据以下步骤用docker部署既简单又高效，赶快学起来吧(ง •̀_•́)ง 。 
+平时我们使用Google需要翻墙，如果部署一个属于自己的TinyGoogle就可以不需翻墙也能尝试使用Google，根据以下部署步骤既简单又高效，赶快学起来吧(ง •̀_•́)ง 。 
 这是效果图 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-27%2015.49.57.png)
 
 ### step0
 下载百度网盘连接中的文件，按照gitbash.docx中的指引安装git bash,了解基本的命令
-那么是什么事git bash呢 : 
+那么什么是git bash呢 : 
 
 ```
 git 
@@ -15,10 +15,11 @@ shell
 bash
 是shell的一种，最常用的shell之一。
 git Bash
-方便你在windows下使用git命令的模拟终端（windows自带的cmd功能太弱....windows就有点弱23333）linux、unix可以直接使用git。
+方便你在windows下使用git以及一些其他命令的模拟终端（windows自带的cmd功能太弱....windows就有点弱23333）linux、ＭacOS可以直接在Terminal(终端程序)中使用git以及一下命令。
 ```
 
-自行百度申请一个github帐号,并根据[这篇文章](http://www.jianshu.com/p/19a3e78aafd0)来了解如何使用命令行版的git
+申请一个github帐号,如果不会就百度吧！
+根据[这篇文章](http://www.jianshu.com/p/19a3e78aafd0)来了解如何使用git版本控制工具
 
 ### step1
 在gitbash中输入：
@@ -43,11 +44,15 @@ ssh：
 注意输入的密码是不显示的,然后接下来的操作都在服务器啦
 
 ### step2
+
 在浏览器地址栏中输入 https://github.com/Humbertzhang/TinyGoogle 或 https://github.com/yuyilei/TinyGoogle   
-到达仓库页面，点击右上角的Fork，将仓库Fork到自己的账号下面 
+到达仓库页面，点击右上角的Fork，将仓库Fork到自己的账号下面
 
+![fork.png](https://storage1.cuntuku.com/2017/07/31/fork.png)
+-
+-
 在自己账号的仓库中，点击Clone or download ,复制该仓库的地址。
-
+[![clone.png](https://storage2.cuntuku.com/2017/07/31/clone.png)](https://cuntuku.com/image/4Komo)
 在git bash中输入
 git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 
@@ -79,4 +84,7 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 ``` 
 这样就是运行成功了 --> 如图 
 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2016.07.40.png) 
+同样可以用ctrl+c来停止，可以通过39.108.79.110:5488来访问
+
 是不是很简单呢？？！
+你已经在网络后台这一方向上走出第一步了！
