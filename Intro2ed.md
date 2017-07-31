@@ -23,7 +23,7 @@ git Bash
 ### step1
 在gitbash中输入：
 
-    ssh root@39.108.79.110:4001
+    ssh root@39.108.79.110
 
 根据提示输入服务器密码（Hack4muxi）进入服务器
 
@@ -60,11 +60,21 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 在命令行中输入　python app.py  来运行app.py 程序
 按照提示输入端口号,程序便能运行起来
 --> 如图 
-![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2015.31.50.png)
+![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2015.31.50.png)  
+
+使用ctrl+c可以停止它
 
 
 ### step4
 打开任意一个浏览器，在浏览器中输入 39.108.79.110:port    
 其中port是你在step3中输入的那个数字,便能看到你刚才部署上去的网站了！
-尝试使用你部署上去的TinyGoogle搜索一下你感兴趣的内容吧~（如果搜索地很慢甚至根本搜索不到，不是你的问题，这个原来就因为 Google Custom Search 自身的原因很慢）
+尝试使用你部署上去的TinyGoogle搜索一下你感兴趣的内容吧~（如果搜索地很慢甚至根本搜索不到，不是你的问题，这个原来就因为 Google Custom Search 自身的原因很慢，就像这样，请求超时 --> 如图 ： 
+![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2015.54.25.png)
+
+### step5 
+也可以使用gunicorn 启动，文件夹下有个 tinygoogle.sh脚本，直接运行脚本 ： 
+
+```
+./tinygoogle.sh 
+``` 
 
