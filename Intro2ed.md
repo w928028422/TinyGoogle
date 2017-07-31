@@ -1,4 +1,4 @@
-# Task:部署一个你自己的Google
+# Task:The First Step On The Backend!
 
 平时我们使用Google需要翻墙，如果部署一个属于自己的TinyGoogle就可以不需翻墙也能尝试使用Google，根据以下部署步骤既简单又高效，赶快学起来吧(ง •̀_•́)ง 。 
 这是效果图 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-27%2015.49.57.png)
@@ -84,7 +84,8 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 ``` 
 这样就是运行成功了 --> 如图 
 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2016.07.40.png) 
-同样可以用ctrl+c来停止，可以通过39.108.79.110:5488来访问
+根据提示输入port,便可以通过39.108.79.110:port来访问
+同样可以用ctrl+c来停止
 
 是不是很简单呢？？！
-你已经在网络后台这一方向上走出第一步了！
+
