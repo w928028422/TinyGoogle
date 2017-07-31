@@ -4,8 +4,21 @@
 这是效果图 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-27%2015.49.57.png)
 
 ### step0
-下载百度网盘连接中的文件，按照gitbash.docx中的指引安装gitbash,了解基本的命令
-自行百度申请一个github帐号,并根据[这篇文章](www.jianshu.com/p/19a3e78aafd0)来了解如何使用命令行版的git
+下载百度网盘连接中的文件，按照gitbash.docx中的指引安装git bash,了解基本的命令
+那么是什么事git bash呢 : 
+
+```
+git 
+版本控制工具，支持该工具的网站有Github、BitBucket、Gitorious、国内的osChina仓库、csdn仓库等等，这些网站都是代码托管的网站。
+shell
+是linux、unix系统的用户界面，也可以理解为命令行，就是你输入并执行命令的地方，git通过命令行和图形界面两种方式使用shell。
+bash
+是shell的一种，最常用的shell之一。
+git Bash
+方便你在windows下使用git命令的模拟终端（windows自带的cmd功能太弱....windows就有点弱23333）linux、unix可以直接使用git。
+```
+
+自行百度申请一个github帐号,并根据[这篇文章](http://www.jianshu.com/p/19a3e78aafd0)来了解如何使用命令行版的git
 
 ### step1
 在gitbash中输入：
@@ -14,7 +27,20 @@
 
 根据提示输入服务器密码（Hack4muxi）进入服务器
 
-创建一个以自己姓名拼音为名称（如 小明就创建`xiaoming`文件夹）的文件夹，并进入该文件夹 （ 了解Linux常用命令 --> [点我](http://blog.csdn.net/ljianhui/article/details/11100625/) ) 
+创建一个以自己姓名拼音为名称（如 小明就创建`xiaoming`文件夹）的文件夹，并进入该文件夹 （ 了解Linux常用命令 --> [点我](http://blog.csdn.net/ljianhui/article/details/11100625/) )  
+这个步骤是登陆服务器那么什么是登陆服务器呢 ： 
+
+```
+服务器：
+服务器的本质就是计算机，但是它能被其他计算机访问，为其它计算机提供某些服务。
+ssh：
+简单说，SSH是一种网络协议，用于计算机之间的加密登录。以上这个命令利用ssh连接，从你的计算机远程登陆到服务器上，之后一切的操作都是在服务器上进行。
+
+```
+登陆服务器 -->  如图 ： 
+![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2015.08.31.png)
+
+注意输入的密码是不显示的,然后接下来的操作都在服务器啦
 
 ### step2
 在浏览器地址栏中输入 https://github.com/Humbertzhang/TinyGoogle 或 https://github.com/yuyilei/TinyGoogle   
@@ -25,11 +51,17 @@
 在git bash中输入
 git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 
-克隆完毕后进入TinyGoogle文件夹
+克隆完毕后进入TinyGoogle文件夹. 
+--> 如图 ： 
+![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2015.19.15.png) 
 
-###　step3
+
+### step3
 在命令行中输入　python app.py  来运行app.py 程序
 按照提示输入端口号,程序便能运行起来
+--> 如图 
+![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2015.31.50.png)
+
 
 ### step4
 打开任意一个浏览器，在浏览器中输入 39.108.79.110:port    
