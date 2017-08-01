@@ -4,7 +4,7 @@
 这是效果图 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-27%2015.49.57.png)
 
 ### step0
-下载百度网盘连接中的文件，按照gitbash.docx中的指引安装git bash,了解基本的命令
+下载百度网盘连接中的文件，按照gitbash.docx中的指引安装git bash,了解基本的命令。   下载地址--> [git bash](http://pan.baidu.com/s/1slWFqqD)
 那么什么是git bash呢 : 
 
 ```
