@@ -1,5 +1,5 @@
 #!/usr/bin/env python
- encoding: utf-8
+# encoding: utf-8
 from app import generate_app , app
 import sys
 
