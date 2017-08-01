@@ -10,4 +10,3 @@ if __name__ == '__main__' :
         print("Error:port should between 3001 and 9999!")
         sys.exit(0)
     app.run(port=port,host='0.0.0.0')
-
