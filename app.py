@@ -95,6 +95,14 @@ def query():
 def not_found(error):
     return render_template('404.html'), 404
 
+@app.route('/hello/')
+def hello() :
+    return '<h1>Hello World</h1>'
+
+@app.route('/hello_to/<name>/')
+def hello_to(name) :
+    return '<h1>Hello , %s</h1>' % name
+
 if __name__ == '__main__':
     host = '0.0.0.0'
     flag = 0
@@ -104,5 +112,4 @@ if __name__ == '__main__':
             flag = 1
         else:
             print("Error:port should between 3001 and 9999!")
-
     app.run(host = host,port = port)
