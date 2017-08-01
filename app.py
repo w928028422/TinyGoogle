@@ -103,13 +103,6 @@ def hello() :
 def hello_to(name) :
     return '<h1>Hello , %s</h1>' % name
 
-if __name__ == '__main__':
-    host = '0.0.0.0'
-    flag = 0
-    while(flag == 0):
-        port = input(">port(between 3001 and 9999):")
-        if port >= 3001 and port <= 9999:
-            flag = 1
-        else:
-            print("Error:port should between 3001 and 9999!")
-    app.run(host = host,port = port)
+def generate_app(app) :
+    app.bebug = True
+    return app

@@ -15,4 +15,4 @@ echo
 echo "You Project Start!"
 echo
 
-gunicorn --name tinygoogle -b 0.0.0.0:${PORT} -w 2 app:app
+gunicorn --name tinygoogle -b 0.0.0.0:${PORT} -w 2 tinygoogle:app
