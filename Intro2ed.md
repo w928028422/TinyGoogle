@@ -118,3 +118,7 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
  ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-08-02%2023.41.26.png)      
 将你实现的结果截图，发给我们
 
+
+## 最后 
+用markdown的格式写下你对每个步骤的理解，过程中遇到的问题，如何解决这些问题，推到你的GitHub仓库上  (了解git基本命令 --> [点我](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html))
+请将仓库地址和截图发给我们 。
