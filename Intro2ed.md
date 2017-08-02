@@ -85,8 +85,36 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 ``` 
 这样就是运行成功了 --> 如图 
 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2016.07.40.png) 
-根据提示输入port,便可以通过39.108.79.110:port来访问
-同样可以用ctrl+c来停止
+根据提示输入port,便可以通过39.108.79.110:port来访问，将你实现的结果截图
+同样可以用ctrl+c来停止 
 
-是不是很简单呢？？！
+
+### step6 
+这一步帮助你理解路由，URL和视图函数之间的关系，哈哈
+首先你要知道什么事路由，什么是视图函数 
+ ```
+ 路由： 
+ 程序需要知道每个URL请求运行哪些代码，所以保存了一个URL到一个python函数的映射关系，处理URL和函数之间的关系的程序就是路由 
+ URL ： 统一资源定位符，像www.baidu.com 就是一个URL 
+ 视图函数：  
+ 某一个URL对应的处理程序
+ ```
+ 下面是一个小例子 ： 在app.py里面有一个路由：
+ 
+ ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-08-02%2023.29.12.png) 
+ 
+ 当你在浏览器中访问 39.108.79.110:port/hello/ 时，你会得到这样的返回：
+ -->如图
+ ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-08-02%2023.30.44.png)  
+ 
+ 当你访问39.108.79.110:port/hello/时，这个URL已经绑定到hello这个函数上，所以就会运行hello函数作为URL的处理函数，他们之间形成了一种映射关系 
+ 
+ 我们可以看到app.py里面还有一个路由： 
+ 
+ ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-08-02%2023.40.25.png) 
+ 
+ 思考如何利用这个路由实现，如下效果： 
+ --> 如图 
+ ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-08-02%2023.41.26.png)      
+将你实现的结果截图，发给我们
 
