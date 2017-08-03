@@ -42,7 +42,7 @@ ssh：
 登陆服务器 -->  如图 ： 
 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2015.08.31.png)
 
-注意输入的密码是不显示的,然后接下来的操作都在服务器啦
+注意输入的密码是不显示的,然后接下来在gitbash中的操作都是在服务器啦
 
 ### step2
 
@@ -85,8 +85,8 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 ``` 
 这样就是运行成功了 --> 如图 
 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2016.07.40.png) 
-根据提示输入port,便可以通过39.108.79.110:port来访问，将你实现的结果截图
-同样可以用ctrl+c来停止 
+根据提示输入port,便可以通过39.108.79.110:port来访问
+你同样可以用ctrl+c来停止 
 
 ### step6
  使用vim编辑查看文件（在vim编辑器中一切都要用英文输入法输入）
@@ -103,7 +103,7 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 
 此时输入 `:wq` 来退出并保存工作vim编辑器。
 
-对vim感兴趣的可以[点我](http://www.jianshu.com/p/5767c86ffa25)
+查看vim的基本操作可以[点我](http://www.jianshu.com/p/5767c86ffa25)
 
 ### step7 
 这一步帮助你理解路由，URL和视图函数之间的关系，哈哈
@@ -137,5 +137,5 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 
 
 ## 最后 
-用markdown的格式写下你对每个步骤的理解，过程中遇到的问题，如何解决这些问题，推到你的GitHub仓库上  (了解git基本命令 --> [点我](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html))
-请将仓库地址和截图发给我们 。
+用[markdown](http://wowubuntu.com/markdown/)的格式写下你对每个步骤的理解，过程中遇到的问题，如何解决这些问题，上传到你Fork来的GitHub仓库上．
+请将仓库地址和 Hello,Stranger 截图发给我们 。
