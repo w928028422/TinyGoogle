@@ -66,7 +66,7 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 在命令行中输入　python tinygoogle.py  来运行tinygoogle.py 程序
 按照提示输入端口号,程序便能运行起来
 --> 如图 
-![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2015.31.50.png)  
+![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-08-03%2014.24.42.png)  
 
 使用ctrl+c可以停止它
 
