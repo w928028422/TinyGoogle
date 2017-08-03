@@ -4,7 +4,7 @@
 这是效果图 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-27%2015.49.57.png)
 
 ### step0
-下载百度网盘连接中的文件，按照gitbash.docx中的指引安装git bash,了解基本的命令。   下载地址--> [git bash](http://pan.baidu.com/s/1slWFqqD)
+下载百度网盘连接中的文件，按照gitbash.docx中的指引安装git bash,了解基本的命令。   下载地址--> [git bash](https://pan.baidu.com/s/1pLr1XH5)
 
 那么什么是git bash呢 : 
 
@@ -63,7 +63,7 @@ git clone 再将仓库地址复制到这句命令后面，等待克隆完毕
 
 
 ### step3
-在命令行中输入　python app.py  来运行app.py 程序
+在命令行中输入　python tinygoogle.py  来运行tinygoogle.py 程序
 按照提示输入端口号,程序便能运行起来
 --> 如图 
 ![](https://github.com/yuyilei/TinyGoogle/blob/master/picture/屏幕快照%202017-07-31%2015.31.50.png)  
