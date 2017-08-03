@@ -46,7 +46,7 @@ ssh：
 
 ### step2
 
-在浏览器地址栏中输入 https://github.com/Humbertzhang/TinyGoogle 或 https://github.com/yuyilei/TinyGoogle   
+在浏览器地址栏中输入  https://github.com/yuyilei/TinyGoogle   
 到达仓库页面，点击右上角的Fork，将仓库Fork到自己的账号下面
 
 ![fork.png](https://storage1.cuntuku.com/2017/07/31/fork.png)
