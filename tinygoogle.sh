@@ -14,4 +14,5 @@ done
 echo
 echo "You Project Start!"
 echo
+echo "Success" > data/RunGunicorn
 gunicorn --name tinygoogle -b 0.0.0.0:${PORT} -w 2 tinygoogle:app
